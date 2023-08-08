@@ -8,33 +8,49 @@
         <link rel="stylesheet" href="style.css">
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     </head>
+
+
+<!--     <body onload="addEvent()">
+        <script>
+            function addEvent(){
+                document.body.addEventListener("click", play)
+            }
+            function play() {
+                var audio = document.getElementById("bgm");
+                audio.play();
+            }
+        </script>
+
+        <div id="contents" >
+            <audio id="bgm" preload="auto" autoplay loop>
+                <source src="bgm.mp3" type="audio/mp3">
+            </audio>
+        <div> -->
+            
+            
+            <!-- <p class="textContent" style="padding-top:1000vw;padding-bottom:50vw;"></p> -->
+
+
     <body>
-
-        <div style="display:none;" id="content2" class="content">
-
-            <div class="chapter" id="4thebirth">
-<div> 
-</div> 
-
-                 <div class="chapter" id="4thebirth">
-                <model-viewer
+        <!-- <p>12:35</p> -->
+        <!-- <img style="margin-top:3vw;width:100%;height:auto;" src="rock.jpg" alt=""/> -->
+            <div>
+            <model-viewer
                 class="vrContent"
-                style="width:100vw;height:120vw;max-width:95%;margin-top:30vw;"
+                style="width:100vw;height:150vw;max-width:95%;"
                 src="pumpkins.gltf"
-                ios-src="dito_n.usdz"
+                ios-src="airplane_revised.usdz"
                 alt=""
                 shadow-intensity="0.1"
                 exposure=".7"
                 camera-controls
-                environment-image="bl.jpg"
+                environment-image="background_white.jpg"
                 auto-rotate
-                ar
-            >
-                <input type="image" src="vr.png" slot="ar-button" style="border: none; position: absolute; bottom:3vw;right:2vw;"/>
+                ar>
+                <input type="image" src="vr_new.png" slot="ar-button" style="border: none; position: absolute; bottom:3vw;right:2vw;"/>
             </model-viewer>
+            </div>
 
-             </div>
-   
 
     </body>
 </html>
